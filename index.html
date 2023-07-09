@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Dev Em Dobro - full-metal-alchemist-brotherhood</title>
+    
+    <link rel="shortcut icon" href="src/imagens/maureza.ico" type="image/maureza.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/Logo.png" alt="Logo full-metal-alchemist-brotherhood">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="eduard" data-name="Eduard Elric" data-description="Edward Elric, ou simplesmente Ed, é o irmão mais velho dos Elric. Junto com Alphonse, seu irmão mais novo, eles partem em uma jornada para recuperar seus corpos">
+            <img
+              src="./src/imagens/card-eduard.jpg"
+              alt="Personagem Eduard Elric"
+            />
+          </li>
+          <li class="personagem" id="alphonse" data-name="Alphonse Elric" data-description="Alphonse Elric, geralmente chamado de Al, é o irmão mais novo. Após um terrível acidente, sua alma ficou presa em uma armadura. Junto com seu irmão mais velho, eles partem em uma jornada em busca da Pedra Filosofal.">
+            <img
+              src="./src/imagens/card-alphonse.jpg"
+              alt="Personagem Alphonse elric"
+            />
+          </li>
+
+          <li class="personagem" id="mustang" data-name="Roy Mustang" data-description=" 
+          Mustang é um Alquimista Federal conhecido como O Alquimista das Chamas no Estado Militar de Amestris. Ele também é o superior do protagonista da série, Edward Elric. ">
+            <img
+              src="./src/imagens/card-mustang.jpg"
+              alt="Personagem Roy Mustang"
+            />
+          </li>
+
+          <li class="personagem" id="inveja" data-name="Inveja" data-description="Inveja é um dos Homúnculos mais cruéis, brincando e deliciando-se com a miséria e dor humana. Inveja mataria sem hesitar, geralmente usando e manipulando as emoções de seu alvo para ter uma vantagem psicológica, sem nenhum remorso pelo que faz.">
+            <img
+              src="./src/imagens/card-inveja.jpg"
+              alt="Personagem Inveja"
+            />
+          </li>
+
+          <li class="personagem" id="luxuria" data-name="Luxuria" data-description="Luxuria é um homunculus como aparência feminina, é muito bonita e fria. Foi o primeiro honunculus a aparecer na série. Geralmente faz dupla com Gula, o qual ve Luxúria como uma irmã mais velha. É conhecida como Lâmina Suprema, devido conseguir esticar seus dedos, formando uma lâmina afiada.">
+            <img
+              src="./src/imagens/card-luxuria.jpg"
+              alt="Personagem Luxuria"
+            />
+          </li>
+
+          <li class="personagem" id="gula" data-name="Gula" data-description="Gula possui a aparência mais caricata dentre os Homúnculos. Além de careca e gordo, Gula tem um corpo desproporcional, com braços longos, mãos grandes, e pernas curtas para alguém da sua estatura, não se engane com sua aparência, fazendo jus ao nome ele devora tudo e todos.">
+            <img
+              src="./src/imagens/card-gula.jpg"
+              alt="Personagem Gula"
+            />
+          </li>
+
+          <li class="personagem" id="ganancia" data-name="Ganancia" data-description="Homúnculo Ganancia, sua habilidade é aumentar a resistência das moléculas de fibra de carbono no seu corpo fazendo com que sua resistência seja quase a de um diamante, é o unico Homúnculo rebelde que se nega a seguir as vontades dos outros.">
+            <img
+              src="./src/imagens/card-ganancia.jpg"
+              alt="Personagem Ganancia"
+            />
+          </li>
+
+          <li class="personagem" id="orgulho" data-name="Orgulho" data-description="
+          Orgulho é o primeiro dos Homúnculos, sendo o irmão mais velho e incrivelmente poderoso. Ele possui a habilidade de se manifestar em forma de sombras e tem um forte desgosto pelos humanos, não hesitando em deixar um rastro de sangue por onde passa.">
+            <img
+              src="./src/imagens/card-orgulho.jpg"
+              alt="Personagem Orgulho"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-eduard.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Eduard Elric</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
